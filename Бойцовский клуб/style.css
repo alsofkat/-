@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    background-image: url('https://cdnb.artstation.com/p/assets/images/images/003/275/067/large/x-l-.jpg');
+    background-size: 100%;
+  }
+  
+  table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 123px;
+    background-color: rgb(174, 163, 212);
+  }
+  
+  td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+  #NAME1, #NAME2 {
+    font-weight: bold;
+  }
+  
+  #hp1, #hp2, #armor1, #armor2, #damage1, #damage2, #endurance1, #endurance2, #trick1, #trick2, #agility1, #agility2 {
+    font-style: italic;
+  }
+  
+  .fighter-image {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+ a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
